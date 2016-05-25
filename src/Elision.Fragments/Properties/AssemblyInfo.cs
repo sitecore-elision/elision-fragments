@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Elision.Fragments")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Adds support for content fragments in the Sitecore Elision framework")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Elision.Fragments")]
