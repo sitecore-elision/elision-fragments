@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Sitecore.Elision.Fragments</id>
+    <version>$version$</version>
+    <title>Sitecore Elision Fragments</title>
+    <authors>PatrickDelancy</authors>
+    <owners>PatrickDelancy</owners>
+    <projectUrl>https://github.com/sitecore-elision/elision-fragments</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>sitecore elision</tags>
+  </metadata>
+  <files>
+    <file src="bin\*\**\*.*" target="content" />
+  </files>
+</package>
