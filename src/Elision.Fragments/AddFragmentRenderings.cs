@@ -11,6 +11,13 @@ namespace Elision.Fragments
 {
     public class AddFragmentRenderings : GetXmlBasedLayoutDefinitionProcessor
     {
+        protected Regex FragmentPlaceholderPattern;
+
+        public AddFragmentRenderings()
+        {
+            FragmentPlaceholderPattern = new Regex(@"^/?" + "fragmentcontainer" + @"(/|$)", RegexOptions.IgnoreCase | RegexOptions.ExplicitCapture);
+        }
+
         public override void Process(GetXmlBasedLayoutDefinitionArgs args)
         {
             if (args.Result == null) return;
@@ -19,7 +26,7 @@ namespace Elision.Fragments
             var device = Sitecore.Mvc.Presentation.PageContext.Current.Device;
             if (device == null) return;
 
-            var deviceId = ID.Parse(string.Format("{{{0}}}", device.Id.ToString().ToUpper()));
+            var deviceId = ID.Parse($"{{{device.Id.ToString().ToUpper()}}}");
             args.Result = MergeWithFragmentRenderings(args.Result, deviceId, Sitecore.Mvc.Presentation.PageContext.Current.Database, pageItem);
         }
 
@@ -28,16 +35,13 @@ namespace Elision.Fragments
             var selfParsed = LayoutDefinition.Parse(self.ToString());
             var selfDevice = selfParsed.GetDevice(deviceId.ToString());
 
-            if (selfDevice == null || selfDevice.Renderings == null)
+            if (selfDevice?.Renderings == null)
                 return self;
 
             var existingRenderingsWithDatasource = selfDevice.Renderings
                                                .Cast<RenderingDefinition>()
                                                .Where(x => !string.IsNullOrWhiteSpace(x.Datasource))
                                                .ToArray();
-
-            var fragmentPlaceholderPattern = new Regex(@"^/?" + "fragmentcontainer" + @"(/|$)",
-                                                       RegexOptions.IgnoreCase | RegexOptions.ExplicitCapture);
 
             foreach (var rendering in existingRenderingsWithDatasource)
             {
@@ -55,11 +59,11 @@ namespace Elision.Fragments
                 var device = layout.GetDevice(ID.Parse(deviceId).ToString());
                 var fragmentRenderings = device
                     .Renderings.Cast<RenderingDefinition>()
-                    .Where(r => fragmentPlaceholderPattern.IsMatch(r.Placeholder ?? ""));
+                    .Where(r => FragmentPlaceholderPattern.IsMatch(r.Placeholder ?? ""));
 
                 foreach (var renderingDefinition in fragmentRenderings)
                 {
-                    renderingDefinition.Placeholder = fragmentPlaceholderPattern
+                    renderingDefinition.Placeholder = FragmentPlaceholderPattern
                         .Replace(renderingDefinition.Placeholder, newPlaceholderPath)
                         .TrimEnd('/');
 

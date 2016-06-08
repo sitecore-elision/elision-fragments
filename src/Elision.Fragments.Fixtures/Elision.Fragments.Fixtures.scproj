@@ -52,8 +52,8 @@
     <OutputPath>.\bin\Release\</OutputPath>
     <RecursiveDeployAction>Ignore</RecursiveDeployAction>
     <PackageName>Elision.Fragments</PackageName>
-    <PackageAuthor>PatrickDelancy</PackageAuthor>
-    <PackagePublisher>PatrickDelancy</PackagePublisher>
+    <PackageAuthor>Patrick Delancy</PackageAuthor>
+    <PackagePublisher>Patrick Delancy</PackagePublisher>
     <PackageVersion>1.0.0.0</PackageVersion>
     <PackageReadme />
     <SitecoreAssemblyPath>..\packages\Sitecore81Deploy.8.1.0\lib\net45</SitecoreAssemblyPath>
@@ -111,6 +111,17 @@
   <ItemGroup>
     <SitecoreItem Include="sitecore\layout.item">
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+      <ItemDeployment>DeployOnce</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\layout\Layouts.item">
+      <ItemDeployment>DeployOnce</ItemDeployment>
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\layout\Layouts\Elision.item">
+      <ItemDeployment>DeployOnce</ItemDeployment>
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\layout\Layouts\Elision\Fragment Layout.item">
       <ItemDeployment>DeployOnce</ItemDeployment>
     </SitecoreItem>
     <SitecoreItem Include="sitecore\layout\Renderings.item">
