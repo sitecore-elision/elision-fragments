@@ -13,7 +13,4 @@
     <copyright>Copyright 2016</copyright>
     <tags>sitecore elision</tags>
   </metadata>
-  <files>
-    <file src="bin\*\**\*.*" target="content" />
-  </files>
 </package>
