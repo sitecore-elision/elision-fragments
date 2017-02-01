@@ -1,0 +1,12 @@
+﻿@using Elision.Foundation.Kernel
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	@Html.Sitecore().Rendering(Renderings.Themes.HeadResources.ToString())
+</head>
+<body>
+	@Html.Sitecore().Rendering(Renderings.Themes.BodyTopResources.ToString())
+	@Html.Sitecore().Placeholder("fragmentcontainer")
+	@Html.Sitecore().Rendering(Renderings.Themes.BodyBottomResources.ToString())
+</body>
+</html>
