@@ -1,10 +1,7 @@
-﻿@using Elision
+﻿@using Elision.Foundation.Kernel
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	@*@Html.Sitecore().Rendering(Renderings.Seo.PageMetadata.ToString(), new { Cacheable = true, Cache_VaryByData = true })
-	@Html.Sitecore().Rendering(Renderings.Seo.TwitterCardMeta.ToString(), new { Cacheable = true, Cache_VaryByData = true })*@
-
 	@Html.Sitecore().Rendering(Renderings.Themes.HeadResources.ToString())
 </head>
 <body>

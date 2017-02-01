@@ -42,76 +42,84 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Elision, Version=8.1.41.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Elision-redist.8.1.41-pre\lib\net45\Elision.dll</HintPath>
+    <Reference Include="EcmaScript.NET, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\YUICompressor.NET.2.1.1.0\lib\NET20\EcmaScript.NET.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.CompatibleRenderings, Version=8.1.41.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Elision-redist.8.1.41-pre\lib\net45\Elision.CompatibleRenderings.dll</HintPath>
+    <Reference Include="Elision.Foundation, Version=0.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elision.Foundation-redist.0.4.0-pre\lib\net452\Elision.Foundation.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.DynamicPlaceholders, Version=8.1.41.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Elision-redist.8.1.41-pre\lib\net45\Elision.DynamicPlaceholders.dll</HintPath>
+    <Reference Include="Elision.Foundation.CompatibleRenderings, Version=0.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elision.Foundation-redist.0.4.0-pre\lib\net452\Elision.Foundation.CompatibleRenderings.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.FieldTokens, Version=8.1.41.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Elision-redist.8.1.41-pre\lib\net45\Elision.FieldTokens.dll</HintPath>
+    <Reference Include="Elision.Foundation.DynamicPlaceholders, Version=0.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elision.Foundation-redist.0.4.0-pre\lib\net452\Elision.Foundation.DynamicPlaceholders.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.FieldVisibility, Version=8.1.41.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Elision-redist.8.1.41-pre\lib\net45\Elision.FieldVisibility.dll</HintPath>
+    <Reference Include="Elision.Foundation.FieldEditor, Version=0.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elision.Foundation-redist.0.4.0-pre\lib\net452\Elision.Foundation.FieldEditor.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.Ioc, Version=8.1.41.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Elision-redist.8.1.41-pre\lib\net45\Elision.Ioc.dll</HintPath>
+    <Reference Include="Elision.Foundation.FieldTokens, Version=0.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elision.Foundation-redist.0.4.0-pre\lib\net452\Elision.Foundation.FieldTokens.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.Kernel, Version=8.1.41.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Elision-redist.8.1.41-pre\lib\net45\Elision.Kernel.dll</HintPath>
+    <Reference Include="Elision.Foundation.FieldVisibility, Version=0.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elision.Foundation-redist.0.4.0-pre\lib\net452\Elision.Foundation.FieldVisibility.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.LayoutRenderings, Version=8.1.41.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Elision-redist.8.1.41-pre\lib\net45\Elision.LayoutRenderings.dll</HintPath>
+    <Reference Include="Elision.Foundation.Ioc, Version=0.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elision.Foundation-redist.0.4.0-pre\lib\net452\Elision.Foundation.Ioc.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.LookupSourceItems, Version=8.1.41.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Elision-redist.8.1.41-pre\lib\net45\Elision.LookupSourceItems.dll</HintPath>
+    <Reference Include="Elision.Foundation.Kernel, Version=0.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elision.Foundation-redist.0.4.0-pre\lib\net452\Elision.Foundation.Kernel.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.Mvc, Version=8.1.41.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Elision-redist.8.1.41-pre\lib\net45\Elision.Mvc.dll</HintPath>
+    <Reference Include="Elision.Foundation.LayoutRenderings, Version=0.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elision.Foundation-redist.0.4.0-pre\lib\net452\Elision.Foundation.LayoutRenderings.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.PlaceholderSettings, Version=8.1.41.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Elision-redist.8.1.41-pre\lib\net45\Elision.PlaceholderSettings.dll</HintPath>
+    <Reference Include="Elision.Foundation.LookupSourceItems, Version=0.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elision.Foundation-redist.0.4.0-pre\lib\net452\Elision.Foundation.LookupSourceItems.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.Publishing, Version=8.1.41.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Elision-redist.8.1.41-pre\lib\net45\Elision.Publishing.dll</HintPath>
+    <Reference Include="Elision.Foundation.Mvc, Version=0.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elision.Foundation-redist.0.4.0-pre\lib\net452\Elision.Foundation.Mvc.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.Rules, Version=8.1.41.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Elision-redist.8.1.41-pre\lib\net45\Elision.Rules.dll</HintPath>
+    <Reference Include="Elision.Foundation.PlaceholderSettings, Version=0.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elision.Foundation-redist.0.4.0-pre\lib\net452\Elision.Foundation.PlaceholderSettings.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.Seo, Version=8.1.41.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Elision-redist.8.1.41-pre\lib\net45\Elision.Seo.dll</HintPath>
+    <Reference Include="Elision.Foundation.Publishing, Version=0.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elision.Foundation-redist.0.4.0-pre\lib\net452\Elision.Foundation.Publishing.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.TabbedRenderingSelector, Version=8.1.41.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Elision-redist.8.1.41-pre\lib\net45\Elision.TabbedRenderingSelector.dll</HintPath>
+    <Reference Include="Elision.Foundation.Rules, Version=0.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elision.Foundation-redist.0.4.0-pre\lib\net452\Elision.Foundation.Rules.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.Themes, Version=8.1.41.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Elision-redist.8.1.41-pre\lib\net45\Elision.Themes.dll</HintPath>
+    <Reference Include="Elision.Foundation.SiteResources, Version=0.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elision.Foundation-redist.0.4.0-pre\lib\net452\Elision.Foundation.SiteResources.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.UpdateReferences, Version=8.1.41.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Elision-redist.8.1.41-pre\lib\net45\Elision.UpdateReferences.dll</HintPath>
+    <Reference Include="Elision.Foundation.TabbedRenderingSelector, Version=0.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elision.Foundation-redist.0.4.0-pre\lib\net452\Elision.Foundation.TabbedRenderingSelector.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.WebEditState, Version=8.1.41.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Elision-redist.8.1.41-pre\lib\net45\Elision.WebEditState.dll</HintPath>
+    <Reference Include="Elision.Foundation.Themes, Version=0.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elision.Foundation-redist.0.4.0-pre\lib\net452\Elision.Foundation.Themes.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Elision.Foundation.UpdateReferences, Version=0.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elision.Foundation-redist.0.4.0-pre\lib\net452\Elision.Foundation.UpdateReferences.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Elision.Foundation.WebEditState, Version=0.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elision.Foundation-redist.0.4.0-pre\lib\net452\Elision.Foundation.WebEditState.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="HtmlAgilityPack, Version=1.4.6.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
@@ -120,6 +128,10 @@
     </Reference>
     <Reference Include="ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
       <HintPath>..\packages\SharpZipLib.0.86.0\lib\20\ICSharpCode.SharpZipLib.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Iesi.Collections, Version=1.0.1.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <HintPath>..\packages\YUICompressor.NET.2.1.1.0\lib\NET20\Iesi.Collections.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Lucene.Net, Version=3.0.3.0, Culture=neutral, PublicKeyToken=85089178b9ac3181, processorArchitecture=MSIL">
@@ -266,6 +278,10 @@
     <Reference Include="System.Xml.Linq" />
     <Reference Include="WebActivatorEx, Version=2.0.0.0, Culture=neutral, PublicKeyToken=7b26dc2a43f6a0d4, processorArchitecture=MSIL">
       <HintPath>..\packages\WebActivatorEx.2.0.3\lib\net40\WebActivatorEx.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Yahoo.Yui.Compressor, Version=2.1.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\YUICompressor.NET.2.1.1.0\lib\NET20\Yahoo.Yui.Compressor.dll</HintPath>
       <Private>True</Private>
     </Reference>
   </ItemGroup>

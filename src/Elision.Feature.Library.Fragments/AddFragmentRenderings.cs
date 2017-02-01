@@ -2,6 +2,7 @@ using System;
 using System.Linq;
 using System.Text.RegularExpressions;
 using System.Xml.Linq;
+using Elision.Foundation.Kernel;
 using Sitecore.Data;
 using Sitecore.Data.Items;
 using Sitecore.Layouts;
