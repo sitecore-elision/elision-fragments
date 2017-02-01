@@ -3,7 +3,7 @@ using System.Web;
 using Sitecore.Shell.Applications.WebEdit.Commands;
 using Sitecore.Shell.Framework.Commands;
 
-namespace Elision.Feature.Library.Fragments
+namespace Elision.Feature.Library.Fragments.SC.Integration
 {
     public class EditFragmentCommand : WebEditCommand
     {

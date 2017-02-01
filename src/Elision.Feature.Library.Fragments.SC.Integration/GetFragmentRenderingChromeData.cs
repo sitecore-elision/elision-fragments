@@ -1,11 +1,10 @@
 using System;
 using System.Linq;
-using Elision.Foundation.Kernel;
 using Sitecore;
 using Sitecore.Diagnostics;
 using Sitecore.Pipelines.GetChromeData;
 
-namespace Elision.Feature.Library.Fragments
+namespace Elision.Feature.Library.Fragments.SC.Integration
 {
     public class GetFragmentRenderingChromeData : GetChromeDataProcessor
     {
@@ -25,8 +24,7 @@ namespace Elision.Feature.Library.Fragments
 
             var fragmentId = StringUtil.ExtractParameter("fragmentid", renderingReference.Settings.Parameters);
             var wasfragment = "1" == StringUtil.ExtractParameter("wasfragment", renderingReference.Settings.Parameters);
-
-            var datasourceItem = renderingReference.Database.ResolveDatasource(renderingReference.Settings.DataSource);
+            
             var editFragmentCommand = args.ChromeData.Commands
                                           .FirstOrDefault(x => x.Click.Contains("deg:rendering:editfragment()"));
             if (editFragmentCommand != null)
