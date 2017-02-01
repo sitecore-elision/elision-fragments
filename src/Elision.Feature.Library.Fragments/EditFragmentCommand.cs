@@ -1,10 +1,11 @@
 using System.Linq;
 using System.Web;
+using Sitecore.Shell.Applications.WebEdit.Commands;
 using Sitecore.Shell.Framework.Commands;
 
 namespace Elision.Feature.Library.Fragments
 {
-    public class EditFragmentCommand : Sitecore.Shell.Applications.WebEdit.Commands.WebEditCommand
+    public class EditFragmentCommand : WebEditCommand
     {
         public override void Execute(CommandContext context)
         {
@@ -17,10 +18,7 @@ namespace Elision.Feature.Library.Fragments
 
             var language = context.Parameters.Get("lang");
 
-            var editUrl = string.Format("/?sc_mode=edit&sc_itemid={0}&sc_lang={1}",
-                HttpUtility.UrlEncode(fragmentId),
-                language
-                );
+            var editUrl = $"/?sc_mode=edit&sc_itemid={HttpUtility.UrlEncode(fragmentId)}&sc_lang={language}";
 
             Sitecore.Web.UI.Sheer.SheerResponse.Eval("window.parent.location = '" + editUrl + "'");
         }
