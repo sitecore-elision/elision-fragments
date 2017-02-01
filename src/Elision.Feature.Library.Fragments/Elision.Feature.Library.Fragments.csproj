@@ -290,7 +290,8 @@
     <Content Include="Areas\ElisionFeature\Views\web.config" />
     <Content Include="Areas\ElisionFeature\Views\Fragment\Fragment.cshtml" />
     <Content Include="Areas\ElisionFeature\Views\Fragment\FragmentContainer.cshtml" />
-    <None Include="Elision.Fragments.nuspec" />
+    <Content Include="Elision.Feature.Library.Fragments.beta.nuspec" />
+    <None Include="Elision.Feature.Library.Fragments.nuspec" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

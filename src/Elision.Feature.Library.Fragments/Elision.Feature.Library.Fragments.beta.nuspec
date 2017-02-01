@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Elision.Feature.Fragments-redist</id>
+    <version>$version$</version>
+    <title>Elision Fragments Feature for Sitecore Redist</title>
+    <authors>jrondeau,PatrickDelancy</authors>
+    <owners>jrondeau</owners>
+    <projectUrl>https://github.com/sitecore-elision/elision-fragments</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This is the Elision fragments feature package to reference if you are building a module or other code that just needs to reference Elision fragments feature. If you need to install Elision's fragments feature, use the Elision.Feature.Fragments package instead.</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>sitecore elision feature fragments</tags>
+  </metadata>
+</package>

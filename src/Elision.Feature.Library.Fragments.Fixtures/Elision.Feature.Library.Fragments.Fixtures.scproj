@@ -51,12 +51,13 @@
     <DebugSymbols>false</DebugSymbols>
     <OutputPath>.\bin\Release\</OutputPath>
     <RecursiveDeployAction>Ignore</RecursiveDeployAction>
-    <PackageName>Elision.Fragments</PackageName>
-    <PackageAuthor>Patrick Delancy</PackageAuthor>
-    <PackagePublisher>Patrick Delancy</PackagePublisher>
-    <PackageVersion>1.0.0.0</PackageVersion>
+    <PackageName>Elision.Feature.Fragments.Fixtures</PackageName>
+    <PackageAuthor>Jeffrey Rondeau</PackageAuthor>
+    <PackagePublisher>Jeffrey Rondeau</PackagePublisher>
+    <PackageVersion>0.0.1</PackageVersion>
     <PackageReadme />
-    <SitecoreAssemblyPath>..\packages\Sitecore81Deploy.8.1.0\lib\net45</SitecoreAssemblyPath>
+    <SitecoreAssemblyPath>
+    </SitecoreAssemblyPath>
     <GeneratePackage>True</GeneratePackage>
     <SeperateFilesAndItems>False</SeperateFilesAndItems>
     <PackageExcludeCode>False</PackageExcludeCode>
@@ -64,17 +65,17 @@
     <NuGetGenerateNuGetPackage>True</NuGetGenerateNuGetPackage>
     <NuGetExePath>..\.nuget</NuGetExePath>
     <NuGetSummary />
-    <NuGetDescription>TDS Item Fixtures for Sitecore Development Accelerator Framework</NuGetDescription>
-    <NuGetTitle>Elision Fragments TDS Fixtures</NuGetTitle>
-    <NuGetVersion>1.0.0.0</NuGetVersion>
-    <NuGetPackageId>Sitecore.Elision.Fragments.Fixtures</NuGetPackageId>
-    <NuGetAuthors>PatrickDelancy</NuGetAuthors>
-    <NuGetOwners>PatrickDelancy</NuGetOwners>
+    <NuGetDescription>TDS Feature Layer Item Fixtures for use with Elision fragments.  Compatible with Sitecore 8.2 Update 2.</NuGetDescription>
+    <NuGetTitle>Elision.Feature.Fragments TDS Fixtures</NuGetTitle>
+    <NuGetVersion>0.0.1</NuGetVersion>
+    <NuGetPackageId>Sitecore.Elision.Feature.Fragments.Fixtures</NuGetPackageId>
+    <NuGetAuthors>jrondeau</NuGetAuthors>
+    <NuGetOwners>jrondeau</NuGetOwners>
     <NuGetCopyright />
     <NuGetLicenseUrl />
     <NuGetIconUrl />
     <NuGetProjectUrl>https://github.com/sitecore-elision/elision-fragments</NuGetProjectUrl>
-    <NuGetTags>sitecore elision</NuGetTags>
+    <NuGetTags>sitecore elision feature fragments tds fixtures</NuGetTags>
     <NuGetReleaseNotes />
     <NuGetLanguage />
     <NuGetRequireLicenseAcceptance>False</NuGetRequireLicenseAcceptance>

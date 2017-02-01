@@ -34,6 +34,24 @@
     <DebugSymbols>true</DebugSymbols>
     <OutputPath>.\bin\Debug\</OutputPath>
     <RecursiveDeployAction>Ignore</RecursiveDeployAction>
+    <NuGetGenerateNuGetPackage>False</NuGetGenerateNuGetPackage>
+    <NuGetExePath />
+    <NuGetSummary />
+    <NuGetDescription />
+    <NuGetTitle />
+    <NuGetVersion />
+    <NuGetPackageId />
+    <NuGetAuthors />
+    <NuGetOwners />
+    <NuGetCopyright />
+    <NuGetLicenseUrl />
+    <NuGetIconUrl />
+    <NuGetProjectUrl />
+    <NuGetTags />
+    <NuGetReleaseNotes />
+    <NuGetLanguage />
+    <NuGetRequireLicenseAcceptance>False</NuGetRequireLicenseAcceptance>
+    <NuGetDependencies />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <DebugSymbols>false</DebugSymbols>
@@ -42,21 +60,31 @@
     <NuGetGenerateNuGetPackage>True</NuGetGenerateNuGetPackage>
     <NuGetExePath>..\.nuget</NuGetExePath>
     <NuGetSummary />
-    <NuGetDescription> TDS Item Fixtures for Sitecore Development Accelerator Framework</NuGetDescription>
-    <NuGetTitle>Elision Fragments TDS Core</NuGetTitle>
-    <NuGetVersion>1.0.0.0</NuGetVersion>
-    <NuGetPackageId>Sitecore.Elision.Fragments.Core</NuGetPackageId>
-    <NuGetAuthors>PatrickDelancy</NuGetAuthors>
-    <NuGetOwners>PatrickDelancy</NuGetOwners>
+    <NuGetDescription>TDS Feature Layer Core Items for use with Elision fragments.  Compatible with Sitecore 8.2 Update 2.</NuGetDescription>
+    <NuGetTitle>Elision.Feature.Fragments TDS Core</NuGetTitle>
+    <NuGetVersion>0.0.1</NuGetVersion>
+    <NuGetPackageId>Sitecore.Elision.Feature.Fragments.Core</NuGetPackageId>
+    <NuGetAuthors>jrondeau</NuGetAuthors>
+    <NuGetOwners>jrondeau</NuGetOwners>
     <NuGetCopyright />
     <NuGetLicenseUrl />
     <NuGetIconUrl />
     <NuGetProjectUrl>https://github.com/sitecore-elision/elision-fragments</NuGetProjectUrl>
-    <NuGetTags>sitecore elision</NuGetTags>
+    <NuGetTags>sitecore elision feature fragments tds core</NuGetTags>
     <NuGetReleaseNotes />
     <NuGetLanguage />
     <NuGetRequireLicenseAcceptance>False</NuGetRequireLicenseAcceptance>
     <NuGetDependencies />
+    <PackageName>Elision.Feature.Fragments.Core</PackageName>
+    <PackageAuthor>Jeffrey Rondeau</PackageAuthor>
+    <PackagePublisher>Jeffrey Rondeau</PackagePublisher>
+    <PackageVersion>0.0.1</PackageVersion>
+    <PackageReadme />
+    <SitecoreAssemblyPath />
+    <GeneratePackage>False</GeneratePackage>
+    <SeperateFilesAndItems>False</SeperateFilesAndItems>
+    <PackageExcludeCode>False</PackageExcludeCode>
+    <AddDateTimeToPackageName>False</AddDateTimeToPackageName>
   </PropertyGroup>
   <ItemGroup>
     <AssemblyAttributes Include="AssemblyFileVersion">
