@@ -2,7 +2,7 @@ using System.Linq;
 using System.Web;
 using Sitecore.Shell.Framework.Commands;
 
-namespace Elision.Fragments
+namespace Elision.Feature.Library.Fragments
 {
     public class EditFragmentCommand : Sitecore.Shell.Applications.WebEdit.Commands.WebEditCommand
     {

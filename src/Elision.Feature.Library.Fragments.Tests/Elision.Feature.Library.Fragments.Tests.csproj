@@ -95,9 +95,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Elision.Fragments\Elision.Fragments.csproj">
+    <ProjectReference Include="..\Elision.Feature.Library.Fragments\Elision.Feature.Library.Fragments.csproj">
       <Project>{34B5A4EE-2FD7-454A-9954-4914BA3E0DD3}</Project>
-      <Name>Elision.Fragments</Name>
+      <Name>Elision.Feature.Library.Fragments</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

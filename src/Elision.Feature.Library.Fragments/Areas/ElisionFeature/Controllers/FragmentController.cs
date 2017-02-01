@@ -1,7 +1,7 @@
 using System.Web.Mvc;
 using Sitecore.Mvc.Controllers;
 
-namespace Elision.Fragments.Areas.Elision.Controllers
+namespace Elision.Feature.Library.Fragments.Areas.ElisionFeature.Controllers
 {
     public class FragmentController : SitecoreController
     {

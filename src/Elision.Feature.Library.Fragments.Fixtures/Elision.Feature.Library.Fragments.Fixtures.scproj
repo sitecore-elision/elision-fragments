@@ -8,8 +8,8 @@
     <ProjectGuid>58a3bc13-5b2c-46e7-9b74-f9aefca079a2</ProjectGuid>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <SourceWebPhysicalPath>..\Elision.Fragments</SourceWebPhysicalPath>
-    <SourceWebProject>{34b5a4ee-2fd7-454a-9954-4914ba3e0dd3}|Elision.Fragments\Elision.Fragments.csproj</SourceWebProject>
-    <SourceWebVirtualPath>/Elision.Fragments.csproj</SourceWebVirtualPath>
+    <SourceWebProject>{34b5a4ee-2fd7-454a-9954-4914ba3e0dd3}|Elision.Fragments\Elision.Feature.Library.Fragments.csproj</SourceWebProject>
+    <SourceWebVirtualPath>/Elision.Feature.Library.Fragments.csproj</SourceWebVirtualPath>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <EnableUpdateable>true</EnableUpdateable>
     <UseMerge>true</UseMerge>
@@ -18,14 +18,14 @@
     <DeleteAppCodeCompiledFiles>true</DeleteAppCodeCompiledFiles>
     <LegacyFileReplacement>false</LegacyFileReplacement>
     <AssemblyName>Elision.Fragments.Fixtures</AssemblyName>
-    <Name>Elision.Fragments.Fixtures</Name>
+    <Name>Elision.Feature.Library.Fragments.Fixtures</Name>
     <RootNamespace>Elision.Fragments.Fixtures</RootNamespace>
     <EnableCodeGeneration>True</EnableCodeGeneration>
     <ManageRoles>False</ManageRoles>
     <SitecoreDatabase>master</SitecoreDatabase>
     <AssemblyStatus>Include</AssemblyStatus>
     <FieldsForCodeGen>Title,Blob,Shared,Unversioned,Default value,Validation,ValidationText,__Long description,__Short description,__Display name,__Hidden,__Read Only,__Sortorder</FieldsForCodeGen>
-    <CodeGenTargetProject>Elision.Fragments</CodeGenTargetProject>
+    <CodeGenTargetProject>Elision.Feature.Library.Fragments</CodeGenTargetProject>
     <CodeGenFile>Templates.cs</CodeGenFile>
     <HeaderTransformFile>StructHeader.tt</HeaderTransformFile>
     <BaseTransformFile>StructItem.tt</BaseTransformFile>
@@ -91,13 +91,18 @@
     </AssemblyAttributes>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Elision.Fragments.Core\Elision.Fragments.Core.scproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Elision.Fragments\Elision.Feature.Library.Fragments.csproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <Project>{34b5a4ee-2fd7-454a-9954-4914ba3e0dd3}</Project>
+      <Name>Elision.Feature.Library.Fragments</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Elision.Fragments\Elision.Fragments.csproj">
       <Project>{34b5a4ee-2fd7-454a-9954-4914ba3e0dd3}</Project>
       <Name>Elision.Fragments</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <ExcludedAssemblies Include="Elision.Fragments.dll" />
   </ItemGroup>
   <ItemGroup>
     <BundledProject Include="..\Elision.Fragments.Core\Elision.Fragments.Core.scproj">
@@ -175,6 +180,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ExcludedAssemblies Include="Elision.Fragments.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets" Condition="Exists('$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets')" />
   <Import Project="..\packages\HedgehogDevelopment.TDS.5.5.0.11\build\HedgehogDevelopment.TDS.targets" Condition="Exists('..\packages\HedgehogDevelopment.TDS.5.5.0.11\build\HedgehogDevelopment.TDS.targets')" />

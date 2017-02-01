@@ -7,7 +7,7 @@ using Sitecore.Data.Items;
 using Sitecore.Layouts;
 using Sitecore.Mvc.Pipelines.Response.GetXmlBasedLayoutDefinition;
 
-namespace Elision.Fragments
+namespace Elision.Feature.Library.Fragments
 {
     public class AddFragmentRenderings : GetXmlBasedLayoutDefinitionProcessor
     {

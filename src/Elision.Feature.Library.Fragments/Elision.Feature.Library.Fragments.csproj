@@ -11,8 +11,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Elision.Fragments</RootNamespace>
-    <AssemblyName>Elision.Fragments</AssemblyName>
+    <RootNamespace>Elision.Feature.Library.Fragments</RootNamespace>
+    <AssemblyName>Elision.Feature.Library.Fragments</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -119,82 +119,55 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Sitecore.Buckets, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore81Client.8.1.0\lib\net45\Sitecore.Buckets.dll</HintPath>
+      <HintPath>..\packages\Sitecore81Client.8.1.151207\lib\Sitecore.Buckets.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Sitecore.Buckets.Client, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore81Client.8.1.0\lib\net45\Sitecore.Buckets.Client.dll</HintPath>
+      <HintPath>..\packages\Sitecore81Client.8.1.151207\lib\Sitecore.Buckets.Client.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Sitecore.Client, Version=8.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore81Client.8.1.0\lib\net45\Sitecore.Client.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Sitecore.ContentTesting.Mvc, Version=8.1.2.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore81Mvc.8.1.0\lib\net45\Sitecore.ContentTesting.Mvc.dll</HintPath>
+      <HintPath>..\packages\Sitecore81Client.8.1.151207\lib\Sitecore.Client.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Sitecore.ExperienceEditor, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore81Client.8.1.0\lib\net45\Sitecore.ExperienceEditor.dll</HintPath>
+      <HintPath>..\packages\Sitecore81Client.8.1.151207\lib\Sitecore.ExperienceEditor.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Sitecore.ExperienceEditor.Speak, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore81Client.8.1.0\lib\net45\Sitecore.ExperienceEditor.Speak.dll</HintPath>
+      <HintPath>..\packages\Sitecore81Client.8.1.151207\lib\Sitecore.ExperienceEditor.Speak.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Sitecore.ExperienceEditor.Speak.Ribbon, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore81Client.8.1.0\lib\net45\Sitecore.ExperienceEditor.Speak.Ribbon.dll</HintPath>
+      <HintPath>..\packages\Sitecore81Client.8.1.151207\lib\Sitecore.ExperienceEditor.Speak.Ribbon.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Sitecore.ExperienceExplorer.Business, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore81Client.8.1.0\lib\net45\Sitecore.ExperienceExplorer.Business.dll</HintPath>
+      <HintPath>..\packages\Sitecore81Client.8.1.151207\lib\Sitecore.ExperienceExplorer.Business.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Sitecore.ExperienceExplorer.Web, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore81Client.8.1.0\lib\net45\Sitecore.ExperienceExplorer.Web.dll</HintPath>
+      <HintPath>..\packages\Sitecore81Client.8.1.151207\lib\Sitecore.ExperienceExplorer.Web.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Sitecore.Kernel">
-      <HintPath>..\packages\Sitecore81Kernel.8.1.0\lib\net45\Sitecore.Kernel.dll</HintPath>
+    <Reference Include="Sitecore.Kernel, Version=8.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore81Kernel.8.1.151207\lib\Sitecore.Kernel.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Sitecore.Mvc, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore81Mvc.8.1.0\lib\net45\Sitecore.Mvc.dll</HintPath>
+      <HintPath>..\packages\Sitecore81Mvc.8.1.151207\lib\Sitecore.Mvc.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Sitecore.Mvc.Analytics, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore81Mvc.8.1.0\lib\net45\Sitecore.Mvc.Analytics.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Sitecore.Mvc.DeviceSimulator, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore81Mvc.8.1.0\lib\net45\Sitecore.Mvc.DeviceSimulator.dll</HintPath>
+      <HintPath>..\packages\Sitecore81Mvc.8.1.151207\lib\Sitecore.Mvc.Analytics.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Sitecore.Mvc.ExperienceEditor, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore81Mvc.8.1.0\lib\net45\Sitecore.Mvc.ExperienceEditor.dll</HintPath>
+      <HintPath>..\packages\Sitecore81Client.8.1.151207\lib\Sitecore.Mvc.ExperienceEditor.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Sitecore.Social.Client.Mvc, Version=8.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore81Mvc.8.1.0\lib\net45\Sitecore.Social.Client.Mvc.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Sitecore.Social.Facebook.Client.Mvc, Version=8.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore81Mvc.8.1.0\lib\net45\Sitecore.Social.Facebook.Client.Mvc.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Sitecore.Social.GooglePlus.Client.Mvc, Version=8.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore81Mvc.8.1.0\lib\net45\Sitecore.Social.GooglePlus.Client.Mvc.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Sitecore.Social.LinkedIn.Client.Mvc, Version=8.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore81Mvc.8.1.0\lib\net45\Sitecore.Social.LinkedIn.Client.Mvc.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Sitecore.Social.Twitter.Client.Mvc, Version=8.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore81Mvc.8.1.0\lib\net45\Sitecore.Social.Twitter.Client.Mvc.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Sitecore.Speak.Mvc, Version=2.0.812.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore81Mvc.8.1.0\lib\net45\Sitecore.Speak.Mvc.dll</HintPath>
+    <Reference Include="Sitecore.Speak.Mvc, Version=2.0.811.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore81Mvc.8.1.151207\lib\Sitecore.Speak.Mvc.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Web.DynamicData" />
@@ -239,20 +212,20 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Areas\Elision\Views\Masters\Fragment.cshtml" />
-    <Content Include="Areas\Elision\Views\web.config" />
-    <Content Include="Areas\Elision\Views\Fragment\Fragment.cshtml" />
-    <Content Include="Areas\Elision\Views\Fragment\FragmentContainer.cshtml" />
+    <Content Include="Areas\ElisionFeature\Views\Masters\Fragment.cshtml" />
+    <Content Include="Areas\ElisionFeature\Views\web.config" />
+    <Content Include="Areas\ElisionFeature\Views\Fragment\Fragment.cshtml" />
+    <Content Include="Areas\ElisionFeature\Views\Fragment\FragmentContainer.cshtml" />
     <None Include="Elision.Fragments.nuspec" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\Elision\Elision.Fragments.config" />
+    <Content Include="App_Config\Include\Elision.Feature.Library.Fragments\Elision.Fragments.config" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AddFragmentRenderings.cs" />
-    <Compile Include="Areas\Elision\Controllers\FragmentController.cs" />
+    <Compile Include="Areas\ElisionFeature\Controllers\FragmentController.cs" />
     <Compile Include="EditFragmentCommand.cs" />
     <Compile Include="GetFragmentRenderingChromeData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

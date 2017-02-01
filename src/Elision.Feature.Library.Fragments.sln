@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elision.Feature.Library.Fragments", "Elision.Feature.Library.Fragments\Elision.Feature.Library.Fragments.csproj", "{34B5A4EE-2FD7-454A-9954-4914BA3E0DD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elision.Feature.Library.Fragments.Tests", "Elision.Feature.Library.Fragments.Tests\Elision.Feature.Library.Fragments.Tests.csproj", "{6663CDD9-0E85-473E-8253-4308F9B62319}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Elision.Feature.Library.Fragments.Fixtures", "Elision.Feature.Library.Fragments.Fixtures\Elision.Feature.Library.Fragments.Fixtures.scproj", "{58A3BC13-5B2C-46E7-9B74-F9AEFCA079A2}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Elision.Feature.Library.Fragments.Core", "Elision.Feature.Library.Fragments.Core\Elision.Feature.Library.Fragments.Core.scproj", "{7069AE22-82BD-4F57-B51F-10B7D3C675E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34B5A4EE-2FD7-454A-9954-4914BA3E0DD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34B5A4EE-2FD7-454A-9954-4914BA3E0DD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34B5A4EE-2FD7-454A-9954-4914BA3E0DD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34B5A4EE-2FD7-454A-9954-4914BA3E0DD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6663CDD9-0E85-473E-8253-4308F9B62319}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6663CDD9-0E85-473E-8253-4308F9B62319}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6663CDD9-0E85-473E-8253-4308F9B62319}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6663CDD9-0E85-473E-8253-4308F9B62319}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58A3BC13-5B2C-46E7-9B74-F9AEFCA079A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58A3BC13-5B2C-46E7-9B74-F9AEFCA079A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58A3BC13-5B2C-46E7-9B74-F9AEFCA079A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7069AE22-82BD-4F57-B51F-10B7D3C675E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7069AE22-82BD-4F57-B51F-10B7D3C675E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7069AE22-82BD-4F57-B51F-10B7D3C675E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

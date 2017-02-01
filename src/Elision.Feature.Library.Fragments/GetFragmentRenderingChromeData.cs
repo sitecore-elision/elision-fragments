@@ -4,7 +4,7 @@ using Sitecore;
 using Sitecore.Diagnostics;
 using Sitecore.Pipelines.GetChromeData;
 
-namespace Elision.Fragments
+namespace Elision.Feature.Library.Fragments
 {
     public class GetFragmentRenderingChromeData : GetChromeDataProcessor
     {
