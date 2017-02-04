@@ -216,6 +216,10 @@
       <HintPath>..\packages\Sitecore.NVelocity.8.2.161221\lib\NET452\Sitecore.NVelocity.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Sitecore.Update, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.Update.NoReferences.8.2.161221\lib\NET452\Sitecore.Update.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Sitecore.Xdb.Client, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Sitecore.Xdb.Client.8.2.161221\lib\NET452\Sitecore.Xdb.Client.dll</HintPath>
       <Private>True</Private>
