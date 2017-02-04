@@ -46,12 +46,14 @@
     <SeperateFilesAndItems>False</SeperateFilesAndItems>
     <PackageExcludeCode>False</PackageExcludeCode>
     <AddDateTimeToPackageName>False</AddDateTimeToPackageName>
+    <EnableValidations>False</EnableValidations>
+    <ValidationSettingsFilePath>.\Elision.Feature.Library.Fragments.Fixtures_Debug.xml</ValidationSettingsFilePath>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <DebugSymbols>false</DebugSymbols>
     <OutputPath>.\bin\Release\</OutputPath>
     <RecursiveDeployAction>Ignore</RecursiveDeployAction>
-    <PackageName>Elision.Feature.Fragments.Fixtures</PackageName>
+    <PackageName>Elision.Feature.Library.Fragments.Fixtures</PackageName>
     <PackageAuthor>Jeffrey Rondeau</PackageAuthor>
     <PackagePublisher>Jeffrey Rondeau</PackagePublisher>
     <PackageVersion>0.0.1</PackageVersion>
