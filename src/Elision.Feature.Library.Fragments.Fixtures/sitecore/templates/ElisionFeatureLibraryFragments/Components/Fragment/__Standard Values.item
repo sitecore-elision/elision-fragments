@@ -2,12 +2,13 @@
 version: 1
 id: {4B958DD6-B7BA-4B4C-966F-830B20D97DB4}
 database: master
-path: /sitecore/templates/Elision/Fragments/Fragment/__Standard Values
+path: /sitecore/templates/ElisionFeatureLibraryFragments/Components/Fragment/__Standard Values
 parent: {231F2B92-0C3A-40D6-88CB-133A1DDAFD69}
 name: __Standard Values
 master: {00000000-0000-0000-0000-000000000000}
 template: {231F2B92-0C3A-40D6-88CB-133A1DDAFD69}
 templatekey: Fragment
+created: 20170206T160812Z
 
 ----field----
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}

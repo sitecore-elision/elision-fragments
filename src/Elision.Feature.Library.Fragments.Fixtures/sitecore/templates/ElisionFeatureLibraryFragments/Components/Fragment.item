@@ -2,12 +2,13 @@
 version: 1
 id: {231F2B92-0C3A-40D6-88CB-133A1DDAFD69}
 database: master
-path: /sitecore/templates/Elision/Fragments/Fragment
-parent: {BB4E422E-6F7A-44E9-952B-A69FFE792C52}
+path: /sitecore/templates/ElisionFeatureLibraryFragments/Components/Fragment
+parent: {1FF14BEF-0E93-4344-BCA7-55D3722E20B3}
 name: Fragment
 master: {00000000-0000-0000-0000-000000000000}
 template: {AB86861A-6030-46C5-B394-E8F99E8B87DB}
 templatekey: Template
+created: 20170206T160806Z
 
 ----field----
 field: {12C33F3F-86C5-43A5-AEB4-5598CEC45116}
@@ -33,7 +34,7 @@ Software/32x32/component.png
 ----version----
 language: en
 version: 1
-revision: f2cd9b73-59cc-45fb-9b9d-680f0ef772be
+revision: e73b6cc5-fa5e-4a3b-9469-3c5b7ac81d94
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -55,18 +56,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-f2cd9b73-59cc-45fb-9b9d-680f0ef772be
+e73b6cc5-fa5e-4a3b-9469-3c5b7ac81d94
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160401T194619Z
+20170206T161641Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
 content-length: 14
 
-sitecore\admin
+sitecore\Admin

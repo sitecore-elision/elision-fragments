@@ -8,6 +8,7 @@ name: Edit Fragment
 master: {00000000-0000-0000-0000-000000000000}
 template: {02404208-46D4-49BF-988B-EB363A52A1C9}
 templatekey: WebEdit Button
+created: 20170206T155908Z
 
 ----field----
 field: {E8CC41C7-C304-4282-B782-E21CA32D324C}
@@ -20,9 +21,9 @@ Software/16x16/component_edit.png
 field: {1BB289D6-44D7-4FCC-AF15-DB32B841F957}
 name: Click
 key: click
-content-length: 84
+content-length: 96
 
-javascript:Sitecore.PageModes.PageEditor.postRequest("deg:rendering:editfragment()")
+javascript:Sitecore.PageModes.PageEditor.postRequest("elision:feature:fragments:editfragment()")
 ----field----
 field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
 name: __Icon
@@ -33,7 +34,7 @@ Software/16x16/component_edit.png
 ----version----
 language: en
 version: 1
-revision: 874df5b1-1535-4c85-8c43-87b13d02e7d3
+revision: 299c2332-7fda-4e42-b33b-90420679f9bd
 
 ----field----
 field: {C523ABA8-D1A1-4DCB-AEEE-52635A4AB2AE}
@@ -76,18 +77,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-874df5b1-1535-4c85-8c43-87b13d02e7d3
+299c2332-7fda-4e42-b33b-90420679f9bd
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150827T201209Z
+20170206T160053Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
 content-length: 14
 
-sitecore\admin
+sitecore\Admin
