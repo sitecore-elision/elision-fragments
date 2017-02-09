@@ -21,9 +21,9 @@ Software/16x16/component_edit.png
 field: {1BB289D6-44D7-4FCC-AF15-DB32B841F957}
 name: Click
 key: click
-content-length: 96
+content-length: 28
 
-javascript:Sitecore.PageModes.PageEditor.postRequest("elision:feature:fragments:editfragment()")
+webedit:openexperienceeditor
 ----field----
 field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
 name: __Icon
@@ -34,7 +34,7 @@ Software/16x16/component_edit.png
 ----version----
 language: en
 version: 1
-revision: 299c2332-7fda-4e42-b33b-90420679f9bd
+revision: 884167ca-1e1b-4292-892a-a21db10f6445
 
 ----field----
 field: {C523ABA8-D1A1-4DCB-AEEE-52635A4AB2AE}
@@ -61,9 +61,9 @@ sitecore\admin
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
-content-length: 15
+content-length: 16
 
-20150713T123706
+20150713T173706Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -77,14 +77,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-299c2332-7fda-4e42-b33b-90420679f9bd
+884167ca-1e1b-4292-892a-a21db10f6445
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20170206T160053Z
+20170209T210436Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
