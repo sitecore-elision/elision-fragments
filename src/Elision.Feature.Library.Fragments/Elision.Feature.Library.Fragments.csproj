@@ -300,6 +300,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\Elision.Feature.Library.Fragments\Elision.Feature.Library.Fragments.config" />
+    <None Include="Properties\PublishProfiles\Local.pubxml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

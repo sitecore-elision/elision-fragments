@@ -63,3 +63,19 @@ namespace Elision.Feature.Library.Fragments
 		}
     }
 }
+namespace Elision.Feature.Library.Fragments
+{
+    public partial struct Renderings
+    {
+        public partial struct Fragments
+        {
+            /// <summary>
+            /// <list type="table">
+            ///     <item><term>Rendering ID:</term><description>{AF7A047E-C84A-4ED1-AAAE-BBF1545635DA}</description></item>
+            ///     <item><term>Path:</term><description>/sitecore/layout/Renderings/ElisionFeatureLibraryFragments/Fragments/FragmentContainer</description></item>
+            /// </list>
+            /// </summary>
+            public static readonly ID FragmentContainer = new ID("{AF7A047E-C84A-4ED1-AAAE-BBF1545635DA}");
+        }
+    }
+}
