@@ -1,26 +1,27 @@
 ----item----
 version: 1
-id: {5FF3A6BC-E410-4D52-AA8E-9E819AB71926}
+id: {DB662EDF-5965-4848-AD14-BA6BF0D55D1E}
 database: core
-path: /sitecore/content/Applications/WebEdit/Default Rendering Buttons
+path: /sitecore/content/Applications/WebEdit/Custom Experience Buttons
 parent: {3F03238B-F1E9-4987-870B-C623E18F844D}
-name: Default Rendering Buttons
+name: Custom Experience Buttons
 master: {00000000-0000-0000-0000-000000000000}
 template: {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
 templatekey: Folder
+created: 20161221T101115Z
 
 ----version----
 language: da
 version: 1
-revision: b0c450af-5893-44ae-bd10-40551afe1752
+revision: ba8f3345-f8c4-4d33-b620-cd115166472d
 
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
 name: __Display name
 key: __display name
-content-length: 29
+content-length: 37
 
-Standardknapper for rendering
+Knapper til brugerdefineret oplevelse
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -34,7 +35,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20160302T162531Z
+20161221T104144Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -48,14 +49,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-b0c450af-5893-44ae-bd10-40551afe1752
+ba8f3345-f8c4-4d33-b620-cd115166472d
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160302T162531Z
+20161221T104144Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -66,15 +67,15 @@ sitecore\admin
 ----version----
 language: de-DE
 version: 1
-revision: 5f49c1cb-9918-4c88-83a8-a08fe1cc1628
+revision: d627114f-df61-43b4-b192-c4443f58af79
 
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
 name: __Display name
 key: __display name
-content-length: 25
+content-length: 37
 
-Standard Rendering Button
+Benutzerdefinierte Experience Buttons
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -88,7 +89,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20160302T162655Z
+20161221T104704Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -102,14 +103,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-5f49c1cb-9918-4c88-83a8-a08fe1cc1628
+d627114f-df61-43b4-b192-c4443f58af79
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160302T162655Z
+20161221T104704Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -120,7 +121,7 @@ sitecore\admin
 ----version----
 language: en
 version: 1
-revision: 9ddc91ff-9eea-43da-9407-92bb6c5e8e89
+revision: 872f08a3-fa6c-4f67-afc5-b3e388b7c380
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -135,7 +136,7 @@ name: __Created
 key: __created
 content-length: 15
 
-20100226T145122
+20100630T172953
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -149,14 +150,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-9ddc91ff-9eea-43da-9407-92bb6c5e8e89
+872f08a3-fa6c-4f67-afc5-b3e388b7c380
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20100630T174905:634135169455281785
+20100630T173012:634135158123845951
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -167,15 +168,15 @@ sitecore\admin
 ----version----
 language: ja-JP
 version: 1
-revision: 5c5c54c5-011f-4a6f-9951-c9496623652d
+revision: 1002eea3-76e3-4b35-986a-d2613a6ab93e
 
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
 name: __Display name
 key: __display name
-content-length: 18
+content-length: 17
 
-デフォルト プレースホルダー ボタン
+カスタム エクスペリエンス ボタン
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -189,7 +190,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20160302T162816Z
+20161221T105108Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -203,14 +204,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-5c5c54c5-011f-4a6f-9951-c9496623652d
+1002eea3-76e3-4b35-986a-d2613a6ab93e
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160302T162816Z
+20161221T105108Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

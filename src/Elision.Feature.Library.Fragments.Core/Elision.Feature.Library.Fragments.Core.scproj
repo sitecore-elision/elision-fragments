@@ -107,13 +107,12 @@
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\content\Applications\WebEdit\Default Rendering Buttons.item">
+    <SitecoreItem Include="sitecore\content\Applications\WebEdit\Custom Experience Buttons.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\content\Applications\WebEdit\Default Rendering Buttons\Edit Fragment.item">
+    <SitecoreItem Include="sitecore\content\Applications\WebEdit\Custom Experience Buttons\Edit Fragment.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
-      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
     </SitecoreItem>
   </ItemGroup>
   <ItemGroup>

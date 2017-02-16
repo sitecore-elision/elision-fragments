@@ -2,8 +2,8 @@
 version: 1
 id: {E475B9F8-0A68-46D5-8DE3-364542D2FE8F}
 database: core
-path: /sitecore/content/Applications/WebEdit/Default Rendering Buttons/Edit Fragment
-parent: {5FF3A6BC-E410-4D52-AA8E-9E819AB71926}
+path: /sitecore/content/Applications/WebEdit/Custom Experience Buttons/Edit Fragment
+parent: {DB662EDF-5965-4848-AD14-BA6BF0D55D1E}
 name: Edit Fragment
 master: {00000000-0000-0000-0000-000000000000}
 template: {02404208-46D4-49BF-988B-EB363A52A1C9}
@@ -34,7 +34,7 @@ Software/16x16/component_edit.png
 ----version----
 language: en
 version: 1
-revision: 884167ca-1e1b-4292-892a-a21db10f6445
+revision: 17a59d8a-167a-4dd1-8d0d-d128991220ed
 
 ----field----
 field: {C523ABA8-D1A1-4DCB-AEEE-52635A4AB2AE}
@@ -77,14 +77,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-884167ca-1e1b-4292-892a-a21db10f6445
+17a59d8a-167a-4dd1-8d0d-d128991220ed
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20170209T210436Z
+20170216T200229Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
