@@ -7,6 +7,7 @@
     <authors>jrondeau,PatrickDelancy</authors>
     <owners>jrondeau</owners>
     <projectUrl>https://github.com/sitecore-elision/elision-fragments</projectUrl>
+    <iconUrl>https://image.ibb.co/ihBV7Q/Elision_Logo.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>This is the Elision fragments feature package to reference if you need to install the entire feature. If you are building a module or other code that just needs to reference the Elision fragments feature, use the Elision.Feature.Fragments-redist package instead.</description>
     <releaseNotes></releaseNotes>
