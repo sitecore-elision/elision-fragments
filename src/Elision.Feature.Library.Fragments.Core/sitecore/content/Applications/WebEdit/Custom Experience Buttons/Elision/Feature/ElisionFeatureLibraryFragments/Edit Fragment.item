@@ -2,8 +2,8 @@
 version: 1
 id: {E475B9F8-0A68-46D5-8DE3-364542D2FE8F}
 database: core
-path: /sitecore/content/Applications/WebEdit/Custom Experience Buttons/Edit Fragment
-parent: {DB662EDF-5965-4848-AD14-BA6BF0D55D1E}
+path: /sitecore/content/Applications/WebEdit/Custom Experience Buttons/Elision/Feature/ElisionFeatureLibraryFragments/Edit Fragment
+parent: {89F1A678-1B99-45C1-A200-DB4C5B3FC72D}
 name: Edit Fragment
 master: {00000000-0000-0000-0000-000000000000}
 template: {02404208-46D4-49BF-988B-EB363A52A1C9}
@@ -34,7 +34,7 @@ Software/16x16/component_edit.png
 ----version----
 language: en
 version: 1
-revision: 17a59d8a-167a-4dd1-8d0d-d128991220ed
+revision: 9b5155b7-eb34-4eba-aa5d-76d0d5ed1969
 
 ----field----
 field: {C523ABA8-D1A1-4DCB-AEEE-52635A4AB2AE}
@@ -77,18 +77,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-17a59d8a-167a-4dd1-8d0d-d128991220ed
+9b5155b7-eb34-4eba-aa5d-76d0d5ed1969
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20170216T200229Z
+20181026T184521Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
 content-length: 14
 
-sitecore\Admin
+sitecore\admin

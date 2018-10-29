@@ -2,7 +2,7 @@
 version: 1
 id: {29CE8EA8-26B3-4638-B7E7-31A76E99DAE4}
 database: master
-path: /sitecore/layout/Renderings/ElisionFeatureLibraryFragments/Fragments/Fragment
+path: /sitecore/layout/Renderings/Elision/Feature/ElisionFeatureLibraryFragments/Fragments/Fragment
 parent: {A1A9DFD7-BB7A-413F-9FC5-AD0176710A86}
 name: Fragment
 master: {00000000-0000-0000-0000-000000000000}
