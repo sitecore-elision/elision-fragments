@@ -53,8 +53,7 @@ namespace Elision.Feature.Library.Fragments.SC.Integration
                 rendering.Parameters += (string.IsNullOrWhiteSpace(rendering.Parameters) ? "" : "&")
                                        + "wasfragment=1&fragmentid=" + fragment.ID;
 
-                var newPlaceholderPath = "/" + rendering.Placeholder.Trim('/')
-                                         + "/fragment_" + Guid.Parse(rendering.UniqueId) + "/";
+                var newPlaceholderPath = $"/{rendering.Placeholder.Trim('/')}/fragment-{{{Guid.Parse(rendering.UniqueId)}}}-0/";
 
                 var layout = fragment.GetLayoutDefinition();
                 var device = layout.GetDevice(ID.Parse(deviceId).ToString());
