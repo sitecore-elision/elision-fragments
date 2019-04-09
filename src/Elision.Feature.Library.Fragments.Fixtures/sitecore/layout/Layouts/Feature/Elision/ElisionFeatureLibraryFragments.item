@@ -1,14 +1,14 @@
 ----item----
 version: 1
-id: {7FDAF422-C2B8-4A27-8295-B2D9C93E9E8E}
+id: {14527464-E6A0-4F0D-8615-684215F4E200}
 database: master
-path: /sitecore/layout/Renderings/Elision
-parent: {32566F0E-7686-45F1-A12F-D7260BD78BC3}
-name: Elision
+path: /sitecore/layout/Layouts/Feature/Elision/ElisionFeatureLibraryFragments
+parent: {F6EBDADF-B37E-42AA-BB1C-4A531127C1CF}
+name: ElisionFeatureLibraryFragments
 master: {00000000-0000-0000-0000-000000000000}
-template: {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
-templatekey: Folder
-created: 20181026T175550Z
+template: {93227C5D-4FEF-474D-94C0-F252EC8E8219}
+templatekey: Layout Folder
+created: 20160602T103633Z
 
 ----field----
 field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
@@ -20,36 +20,36 @@ elision.foundation/32x32/elision.png
 ----version----
 language: en
 version: 1
-revision: 1498144a-0988-45ce-8569-869825d96e19
+revision: e6800fde-0823-4f60-ad8a-09f23c184d7b
 
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 33
+
+Elision.Feature.Library.Fragments
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
 content-length: 16
 
-20181026T175022Z
-----field----
-field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
-name: __Created by
-key: __created by
-content-length: 14
-
-sitecore\admin
+20150205T051323Z
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-1498144a-0988-45ce-8569-869825d96e19
+e6800fde-0823-4f60-ad8a-09f23c184d7b
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20181026T175555Z
+20190409T174950Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
