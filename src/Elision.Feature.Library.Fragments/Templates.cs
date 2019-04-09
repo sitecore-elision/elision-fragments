@@ -18,7 +18,7 @@ namespace Elision.Feature.Library.Fragments
         /// <summary>
         /// <list type="table">
         ///     <item><term>Template ID:</term><description>{231F2B92-0C3A-40D6-88CB-133A1DDAFD69}</description></item>
-        ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureLibraryFragments/Components/Fragment</description></item>
+        ///     <item><term>Path:</term><description>/sitecore/templates/Feature/Elision/ElisionFeatureLibraryFragments/Components/Fragment</description></item>
         /// </list>
         /// </summary>
         public struct Fragment
@@ -38,7 +38,7 @@ namespace Elision.Feature.Library.Fragments
             /// <summary>
             /// <list type="table">
             ///     <item><term>Rendering ID:</term><description>{29CE8EA8-26B3-4638-B7E7-31A76E99DAE4}</description></item>
-            ///     <item><term>Path:</term><description>/sitecore/layout/Renderings/Elision/Feature/ElisionFeatureLibraryFragments/Fragments/Fragment</description></item>
+            ///     <item><term>Path:</term><description>/sitecore/layout/Renderings/Feature/Elision/ElisionFeatureLibraryFragments/Fragments/Fragment</description></item>
             /// </list>
             /// </summary>
             public static readonly ID Fragment = new ID("{29CE8EA8-26B3-4638-B7E7-31A76E99DAE4}");
@@ -52,7 +52,7 @@ namespace Elision.Feature.Library.Fragments
         /// <summary>
         /// <list type="table">
         ///     <item><term>Template ID:</term><description>{3D5238BC-8767-4AB2-AD85-C78530DDA254}</description></item>
-        ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureLibraryFragments/Components/FragmentContainer</description></item>
+        ///     <item><term>Path:</term><description>/sitecore/templates/Feature/Elision/ElisionFeatureLibraryFragments/Components/FragmentContainer</description></item>
         /// </list>
         /// </summary>
         public struct FragmentContainer
@@ -72,7 +72,7 @@ namespace Elision.Feature.Library.Fragments
             /// <summary>
             /// <list type="table">
             ///     <item><term>Rendering ID:</term><description>{AF7A047E-C84A-4ED1-AAAE-BBF1545635DA}</description></item>
-            ///     <item><term>Path:</term><description>/sitecore/layout/Renderings/Elision/Feature/ElisionFeatureLibraryFragments/Fragments/FragmentContainer</description></item>
+            ///     <item><term>Path:</term><description>/sitecore/layout/Renderings/Feature/Elision/ElisionFeatureLibraryFragments/Fragments/FragmentContainer</description></item>
             /// </list>
             /// </summary>
             public static readonly ID FragmentContainer = new ID("{AF7A047E-C84A-4ED1-AAAE-BBF1545635DA}");

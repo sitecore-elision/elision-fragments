@@ -1,34 +1,48 @@
 ----item----
 version: 1
-id: {F6EBDADF-B37E-42AA-BB1C-4A531127C1CF}
+id: {DA61AD50-8FDB-4252-A68F-B4470B1C9FE8}
 database: master
-path: /sitecore/layout/Layouts/Elision
-parent: {75CC5CE4-8979-4008-9D3C-806477D57619}
-name: Elision
+path: /sitecore/layout/Renderings/Feature
+parent: {32566F0E-7686-45F1-A12F-D7260BD78BC3}
+name: Feature
 master: {00000000-0000-0000-0000-000000000000}
-template: {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
-templatekey: Folder
-created: 20181026T175022Z
+template: {7EE0975B-0698-493E-B3A2-0B2EF33D0522}
+templatekey: Rendering Folder
+created: 20181101T095340Z
 
 ----field----
 field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
 name: __Icon
 key: __icon
-content-length: 36
+content-length: 35
 
-elision.foundation/32x32/elision.png
+applications/32x32/folder_cubes.png
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+150
 ----version----
 language: en
 version: 1
-revision: c0b10dde-ab55-4ffd-aef2-adbdd08b5ee4
+revision: 6cd8ef20-a34c-4065-8a85-f5b01925a754
 
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
 content-length: 16
 
-20181026T175022Z
+20150824T174129Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -42,14 +56,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-c0b10dde-ab55-4ffd-aef2-adbdd08b5ee4
+6cd8ef20-a34c-4065-8a85-f5b01925a754
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20181026T175028Z
+20180718T163239Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

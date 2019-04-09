@@ -2,8 +2,8 @@
 version: 1
 id: {7AEEED16-1EC5-49B8-975A-E9D139D95283}
 database: master
-path: /sitecore/layout/Renderings/Elision/Feature/ElisionFeatureLibraryFragments
-parent: {D393152E-0537-4041-A0C3-C201B223EDDC}
+path: /sitecore/layout/Renderings/Feature/Elision/ElisionFeatureLibraryFragments
+parent: {7FDAF422-C2B8-4A27-8295-B2D9C93E9E8E}
 name: ElisionFeatureLibraryFragments
 master: {00000000-0000-0000-0000-000000000000}
 template: {ACC5FB47-950F-45FA-A6A7-15C1C681CBA7}
@@ -13,7 +13,7 @@ created: 20170206T160927Z
 ----version----
 language: en
 version: 1
-revision: 9a19ba21-6200-4b48-b035-7cbafd3f71b6
+revision: 94ad8f04-8155-4ee2-9222-9d0ba0a004cf
 
 ----field----
 field: {2E1C630C-AC9F-473C-ABCD-DB8CA1DE0ACB}
@@ -42,14 +42,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-9a19ba21-6200-4b48-b035-7cbafd3f71b6
+94ad8f04-8155-4ee2-9222-9d0ba0a004cf
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20181026T175800Z
+20190409T175212Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

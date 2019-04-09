@@ -1,14 +1,14 @@
 ----item----
 version: 1
-id: {21502AC2-2B87-4323-86ED-E526628A1926}
+id: {F6EBDADF-B37E-42AA-BB1C-4A531127C1CF}
 database: master
-path: /sitecore/layout/Layouts/Elision/Feature
-parent: {F6EBDADF-B37E-42AA-BB1C-4A531127C1CF}
-name: Feature
+path: /sitecore/layout/Layouts/Feature/Elision
+parent: {470A0483-80DC-4425-93B9-9C79C7C57A11}
+name: Elision
 master: {00000000-0000-0000-0000-000000000000}
 template: {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
 templatekey: Folder
-created: 20181026T175036Z
+created: 20181026T175022Z
 
 ----field----
 field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
@@ -20,7 +20,7 @@ elision.foundation/32x32/elision.png
 ----version----
 language: en
 version: 1
-revision: 69a96da8-87d6-41d9-85f2-cbeb06f1f312
+revision: 686f848c-8362-4559-94d6-d304f22e0f22
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -42,14 +42,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-69a96da8-87d6-41d9-85f2-cbeb06f1f312
+686f848c-8362-4559-94d6-d304f22e0f22
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20181026T175039Z
+20190409T174942Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

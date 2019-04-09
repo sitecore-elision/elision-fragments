@@ -1,14 +1,14 @@
 ----item----
 version: 1
-id: {3D5238BC-8767-4AB2-AD85-C78530DDA254}
+id: {231F2B92-0C3A-40D6-88CB-133A1DDAFD69}
 database: master
-path: /sitecore/templates/Elision/Feature/ElisionFeatureLibraryFragments/Components/FragmentContainer
+path: /sitecore/templates/Feature/Elision/ElisionFeatureLibraryFragments/Components/Fragment
 parent: {1FF14BEF-0E93-4344-BCA7-55D3722E20B3}
-name: FragmentContainer
+name: Fragment
 master: {00000000-0000-0000-0000-000000000000}
 template: {AB86861A-6030-46C5-B394-E8F99E8B87DB}
 templatekey: Template
-created: 20170206T160812Z
+created: 20170206T160806Z
 
 ----field----
 field: {12C33F3F-86C5-43A5-AEB4-5598CEC45116}
@@ -17,18 +17,32 @@ key: __base template
 content-length: 38
 
 {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+----field----
+field: {F7D48A55-2158-4F02-9356-756654404F73}
+name: __Standard values
+key: __standard values
+content-length: 38
+
+{4B958DD6-B7BA-4B4C-966F-830B20D97DB4}
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 28
+
+Software/32x32/component.png
 ----version----
 language: en
 version: 1
-revision: 79709287-77ce-4471-ac96-b252342c9cf9
+revision: e73b6cc5-fa5e-4a3b-9469-3c5b7ac81d94
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
-content-length: 16
+content-length: 15
 
-20150127T054859Z
+20150608T080756
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -42,14 +56,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-79709287-77ce-4471-ac96-b252342c9cf9
+e73b6cc5-fa5e-4a3b-9469-3c5b7ac81d94
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20170206T161651Z
+20170206T161641Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
